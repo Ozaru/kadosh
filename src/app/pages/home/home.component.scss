@@ -1,6 +1,6 @@
 .gradiente {
-    background-image: linear-gradient(90deg, maroon , black 20%);
-}
+    background-image: linear-gradient(21deg, rgba(255, 0, 0, 0.555), rgba(44, 11, 11, 0.61) 70.71%), linear-gradient(89deg, rgba(255, 94, 0, 0.8), rgba(0, 255, 0, 0) 70.71%), linear-gradient(327deg, rgba(0, 0, 255, 0.8), rgba(0, 0, 255, 0) 70.71%);
+    }
 
 .circulo {
     background-image: radial-gradient(circle, red , transparent 70%);
@@ -8,6 +8,10 @@
 
 .card {
     border: none;
+}
+
+.btnRadius {
+    border-radius: 16px;
 }
 
 .imgDisp {
@@ -21,7 +25,7 @@
     color: aliceblue;
     opacity: 2;
     -webkit-text-stroke-width: 1px;
-    -webkit-text-stroke-color: rgb(255, 0, 0);
+    -webkit-text-stroke-color: gold;
 }
 
 .tText {
@@ -29,11 +33,13 @@
 }
 
 .btnAcsses {
-    background-color: #ee5253;
+    background-color: gold;
+    box-shadow: 0 0 1em goldenrod;
+    color: rgb(231, 76, 76);
 }
 
 .btnAcsses:hover {
-    background-color: aliceblue;
+    background-color: gold;
 }
 
 .hero {
