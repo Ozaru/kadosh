@@ -18,10 +18,14 @@
 }
 
 .pText {
-    color: rgb(255, 255, 255);
+    color: aliceblue;
     opacity: 2;
     -webkit-text-stroke-width: 1px;
-    -webkit-text-stroke-color: white;
+    -webkit-text-stroke-color: rgb(255, 0, 0);
+}
+
+.tText {
+    color: aliceblue;
 }
 
 .btnAcsses {
@@ -36,7 +40,7 @@
     background-image: url(../../../../public/assets/img/hero/Hero.png);
     background-repeat: no-repeat;
     background-size: cover;
-    position: relative; //tem a capacidade de prender o elemento com o position absolute dentro dele.
+    position: relative;
     border-radius: 15px;
     margin-left: -12px;
     margin-right: -12px;
