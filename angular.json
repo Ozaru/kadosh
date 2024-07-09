@@ -17,10 +17,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:application",
           "options": {
-            "outputPath": {
-              "base": "docs",
-              "browser": ""
-              },
+            "outputPath": "dist/kadosh",
             "index": "src/index.html",
             "browser": "src/main.ts",
             "polyfills": [
@@ -100,6 +97,9 @@
             ],
             "scripts": []
           }
+        },
+        "deploy": {
+          "builder": "angular-cli-ghpages:deploy"
         }
       }
     }
