@@ -33,7 +33,6 @@
     "@angular/localize": "^18.0.0",
     "@types/aos": "^3.0.7",
     "@types/jasmine": "~5.1.0",
-    "angular": "^1.8.3",
     "angular-cli-ghpages": "^2.0.1",
     "aos": "^2.3.4",
     "jasmine-core": "~5.1.0",
