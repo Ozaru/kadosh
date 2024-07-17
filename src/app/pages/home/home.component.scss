@@ -57,8 +57,9 @@
     margin-right: -12px;
 
     .container {
-        position: relative;
+        position: absolute;
         display: flex;
+        margin: auto;
     }
 
     &::before {
